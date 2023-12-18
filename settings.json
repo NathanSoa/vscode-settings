@@ -1,0 +1,126 @@
+{
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "workbench.iconTheme": "symbols",
+
+	// Editor settings
+    "editor.inlineSuggest.enabled": true,
+    "editor.fontSize": 16,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "boundary",
+    "editor.codeActionsOnSave": {
+			"source.fixAll.eslint": "always"
+		},
+
+	// Fira Code font settings
+	//"editor.fontFamily": "Fira Code",
+  //"editor.fontWeight": "500",
+	//"editor.fontLigatures": true,
+
+	// Cascadia Code font settings
+  "editor.fontFamily": "Cascadia Code",
+	"editor.fontWeight": "700",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'",
+
+	// Cascadia Code setting if you want to use cursive font
+	// "editor.tokenColorCustomizations": {
+	// 	"textMateRules": [
+	// 		{
+	// 			"scope": [
+	// 				"comment",
+	// 				"constant",
+	// 				"emphasis",
+	// 				"entity",
+	// 				"invalid",
+	// 				"keyword",
+	// 				"markup",
+	// 				"meta",
+	// 				"storage",
+	// 				"string",
+	// 				"strong",
+	// 				"support",
+	// 				"variable"
+	// 			],
+	// 			"settings": {
+	// 				"fontStyle": "italic"
+	// 			}
+	// 		}
+	// 	]
+	// },
+	
+    "explorer.compactFolders": false,
+    "jest.autoRun": "off",
+    "git.confirmSync": false,
+    "redhat.telemetry.enabled": false,
+
+	// Indentation Colors
+	"indentRainbow.colors": [
+		"rgba(255,255,64,0.07)",
+		"rgba(127,255,127,0.07)",
+		"rgba(255,127,255,0.07)",
+		"rgba(79,236,236,0.07)"
+	],
+	"indentRainbow.errorColor": "rgba(128,32,32,0.2)",
+	"indentRainbow.tabmixColor": "rgba(128,32,96,0.2)",
+
+	// Symbols association
+	"symbols.files.associations": {
+		"*.module.ts": "nest",
+		"*.service.ts": "nest",
+		"*.controller.ts": "nest"
+	},
+	"symbols.folders.associations": {
+		"test": "folder-purple-outline",
+		"tests": "folder-purple-outline",
+		"hooks": "folder-purple-outline",
+		"error": "folder-red",
+		"domain": "folder-assets",
+		"entity": "folder-assets",
+		"entities": "folder-assets",
+		"dto": "folder-assets",
+		"dtos": "folder-assets",
+		"http": "folder-blue",
+		"mapper": "folder-green",
+		"routes": "folder-green-code",
+		"functions": "folder-app",
+		"function": "folder-app",
+		"useCases": "folder-app",
+		"useCase": "folder-app",
+		"main": "folder-app",
+		"lib": "folder-config",
+		"libs": "folder-config",
+		"shared": "folder-config",
+		"common": "folder-context",
+		"controller": "folder-layout",
+		"repository": "folder-database",
+		"repositories": "folder-database",
+		"external": "folder-yellow",
+		"validation": "folder-green-outline",
+		"docs": "folder-gray-outline",
+		"adapter": "folder-purple-code",
+		"infra": "folder-middleware",
+		"factory": "folder-utils",
+		"presentation": "folder-blue",
+		"ui": "folder-blue"
+	},
+    "symbols.hidesExplorerArrows": false,
+
+	// Terminal
+	"terminal.integrated.fontFamily": "Fira Code Retina",
+	"terminal.integrated.defaultProfile.linux": "zsh",
+	"terminal.integrated.fontSize": 15,
+	"terminal.integrated.env.windows": {},
+
+	"typescript.updateImportsOnFileMove.enabled": "always",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"console-ninja.featureSet": "Community",
+	"window.zoomLevel": -2,
+
+	"editor.cursorSmoothCaretAnimation": "on",
+	"workbench.list.smoothScrolling": true,
+	"editor.smoothScrolling": true,
+}
